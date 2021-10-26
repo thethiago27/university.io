@@ -33,3 +33,17 @@ MONGO_DB: Nome do banco de dados
 yarn start
 
 ```
+
+## Consultas
+
+Sempre que for fazer uma requisição de método GET /universities é obrigatório passar o parametro "page" e indiciar a página que quer ver
+Exemplo: http://localhost:3000/universities?page=1
+
+Você pode fazer consultas também filtrando por país:
+
+Exemplo: http://localhost:3000/universities?page=1&country=brazil
+
+[POST] /universities - Cria uma nova universidade
+[PUT] /universities/:id - Atualiza uma universidade por ID
+[DELETE] /universities/:id - Deleta uma universidade por ID
+
