@@ -1,6 +1,6 @@
 # University.io
 
-University.io é a conclusão do teste referente a vaga de BackEnd.
+University.io.
 
 ## Tecnlogias
 
